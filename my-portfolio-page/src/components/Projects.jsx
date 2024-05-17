@@ -107,7 +107,7 @@ const Projects = () => {
                 <ProjectsContainer>
                     <BulletPoints>
                         <li>UCSB Senior Capstone Project</li>
-                        <li>Made an app, sponsored by <ProjectLink href="https://aziksa.com/">Aziksa</ProjectLink>, that helps non-native english speakers write professional emails</li>
+                        <li>Made an app, sponsored by <ProjectLink href="https://aziksa.com/" target="_blank" rel="noopener noreferrer">Aziksa</ProjectLink>, that helps non-native english speakers write professional emails</li>
                         <li>Designed in Figma and built with React Native</li>
                         <li>Backend: Python, Uvicorn FastAPI, prompt engineering, Meta’s Llama2 LLM</li>
                     </BulletPoints>
@@ -118,7 +118,7 @@ const Projects = () => {
                 <ProjectImage src="./img/bear.png"/>
                 <ProjectsContainer>
                     <BulletPoints>
-                        <li>Project for <ProjectLink href="https://sites.cs.ucsb.edu/~ckrintz/racelab.html">UCSB RACELab's</ProjectLink> Where's the Bear system</li>
+                        <li>Project for <ProjectLink href="https://sites.cs.ucsb.edu/~ckrintz/racelab.html" target="_blank" rel="noopener noreferrer">UCSB RACELab's</ProjectLink> Where's the Bear system</li>
                         <li>Developed an ImageMagick and Bash-based system to detect wildlife in images</li>
                         <li>Tested on thousands of images, optimized through segmentations</li>
                         <li>Used RMSE and MAE thresholding to mark wildlife and classify empty images</li>
@@ -132,7 +132,7 @@ const Projects = () => {
                     <BulletPoints>
                         <li>Designed a Smart Mailbox IoT System using Rasperry Pi, HX711 Load Cell, Magnet sensor and Weight sensor</li>
                         <li>Utilized Python and SMTP server for package detection, door status, and user notifications via email</li>
-                        <li>Project for CS190B (IoT Class) - <ProjectLink href="https://drive.google.com/file/d/11AWwicvFtITFH7IRF8Oe0REDVvFhagHK/view?usp=sharing">Demo Video</ProjectLink></li>
+                        <li>Project for CS190B (IoT Class) - <ProjectLink href="https://drive.google.com/file/d/11AWwicvFtITFH7IRF8Oe0REDVvFhagHK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Video</ProjectLink></li>
                     </BulletPoints>
                 </ProjectsContainer>
 
@@ -145,7 +145,7 @@ const Projects = () => {
                         <li>Collaboratively worked on an interactive solar system game</li>
                         <li>Allows users to explore and learn about celestial bodies, orbits, and gravitational fields</li>
                         <li>Developed in Unity, C#, WebGL and hosted on Itch.io</li>
-                        <li>Project for CS148 (Software Engineering class) - <ProjectLink href="https://team04-interactivesolarx.itch.io/team04-interactivesolarx">Try it out!</ProjectLink></li>
+                        <li>Project for CS148 (Software Engineering class) - <ProjectLink href="https://team04-interactivesolarx.itch.io/team04-interactivesolarx" target="_blank" rel="noopener noreferrer">Try it out!</ProjectLink></li>
                     </BulletPoints>
                 </ProjectsContainer>
             </ProjectCard>
