@@ -43,7 +43,7 @@ const Title = styled.h1`
         position: absolute; 
         top: 0;
         left: 0; 
-        color: #00bbff; 
+        color: rgba(108, 205, 240, 1); 
         width: 0px; 
         overflow: hidden; 
         white-space: nowrap; 

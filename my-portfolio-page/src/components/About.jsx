@@ -95,7 +95,7 @@ const About = () => {
             <Container>
                 <Left> 
                     <Canvas camera={{fov:18, position: [5, 5, 5]}}>
-                        <OrbitControls enableZoom={false} />
+                        <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={3}/>
                         <ambientLight intensity={2}/>
                         <directionalLight position={[3, 2, 1]}/>
                         <Cube/>

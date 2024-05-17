@@ -55,7 +55,7 @@ const TextArea = styled.textarea`
 
 const Button = styled.button`
   width: 76vh;
-  background-color: #00bbff;
+  background-color: rgba(108, 194, 240, 1);
   color: white; 
   border: none; 
   font-weight: bold; 
@@ -93,7 +93,7 @@ const ListItem = styled.li`
   display: flex; 
   align-items: center; 
 
-  transition: transform 0.2s; 
+  transition: transform 0.2s ease; 
 
   &:hover {
     transform: scale(1.05); 
@@ -114,8 +114,6 @@ const LinkContainer = styled.a`
 const Icons = styled.img`
   width: 15vh; 
   height: 15vh;
-
-
 `;
 
 const IconText = styled.span`
@@ -142,6 +140,7 @@ const Contact = () => {
             (result) => {
               console.log(result.text);
               setSuccess(true)
+              ref.current.reset()
             },
             (error) => {
               console.log('FAILED...', error.text);
@@ -160,8 +159,9 @@ const Contact = () => {
                 <Input placeholder="Email" name="email"/>
                 <TextArea placeholder="Write your message" name="message" rows={10}/>
                 <Button type='submit'>Send</Button>
-                {success && 
-                  "Your message has been sent. Thanks for reaching out!"}
+                {success !== null && 
+                  (success ? "Your message has been sent. Thanks for reaching out!" : "There was an error. Please try again.")
+                }
               </Form>
             </Left>
             <Right>

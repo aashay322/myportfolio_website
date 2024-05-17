@@ -34,7 +34,7 @@ const ListItem = styled.li`
     cursor: pointer;
     font-size: 4vh; 
 
-    color: #6ccdf0;
+    color: rgba(108, 205, 240, 1);
 
     &:hover{
         color: #fff; 
@@ -72,6 +72,15 @@ function scrollToContactPage() {
     contactPage.scrollIntoView({behavior: 'smooth'});
 }
 
+function scrollToExperiencePage() {
+    const experiencesPage = document.getElementById("experiencesPage")
+    experiencesPage.scrollIntoView({behavior: 'smooth'});
+}
+
+function scrollToProjectsPage() {
+    const projectsPage = document.getElementById("projectsPage");
+    projectsPage.scrollIntoView({behavior: 'smooth'});
+}
 const Navbar = () => {
     return (
         <Section>
@@ -79,7 +88,10 @@ const Navbar = () => {
                 <Links>
                     <List>
                         <ListItem onClick={scrollToAboutPage}>About</ListItem>
+                        <ListItem onClick={scrollToExperiencePage}>Experience</ListItem>
+                        <ListItem onClick={scrollToProjectsPage}>Projects</ListItem>
                         <ListItem onClick={scrollToContactPage}>Contact</ListItem>
+                        
                     </List>
                 </Links>
                 {/* <Icons>
