@@ -108,7 +108,7 @@ const About = () => {
                         {/* <Subtitle>Who we are</Subtitle> */}
                     </WhatWeDo>
                     <Desc>
-                        <p>I am a recent graduate (March '24) from the </p> 
+                        <p>I am a recent graduate (Spring 2024) from the </p> 
                         <p><b>University of California, Santa Barbara</b> </p> <p> with a bachelor's degree in <b>Computer Science.</b></p>
                         <br></br>
                         <p>I have prior work and project experiences in backend, fullstack, and mobile development.
